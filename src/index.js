@@ -6,10 +6,14 @@ import * as serviceWorker from './serviceWorker';
 
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
+import {BrowserRouter} from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
