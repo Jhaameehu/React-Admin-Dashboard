@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
-import AdminImg from '../../Images/adminPhoto.jpg';
+import AdminImg from '../../Images/adminPhoto.png';
+// import Search from '../../Images/Search.jpg';
+
 import { IoIosNotificationsOutline } from 'react-icons/io'
 import { IconContext } from 'react-icons/lib';
 const Header = () => {
@@ -8,11 +10,13 @@ const Header = () => {
         <div>
             <div className='topBar'>
             <h1>TransMonitor</h1>
+            {/* <img src={Search} alt='' /> */}
             <input id="icon" type="text" placeholder="Search..."/>
             <div className='topRight'>
                 <ul>
                     <a href='/'><li>Support</li></a>
                     <a href='/'><li>FAQ</li></a>
+
                     <IconContext.Provider value={{size:'20px'}}>
                     <a href='/' className='notification'><li><IoIosNotificationsOutline/>
                     <span className="badge">3</span></li></a>

@@ -1,10 +1,55 @@
 import React from 'react';
 import './Sidebar.css';
 
+import Overview from '../../Images/overview.png';
+import AllPayment from '../../Images/allPayment.png';
+import ReconcilePayment from '../../Images/reconcilePayment.png';
+import UnreconcilePayment from '../../Images/UnreconcilePayment.png';
+import ManualSettlement from '../../Images/manualSettlement.png';
+
+
+
 const Sidebar = () => {
     return (
+        
         <div className='sideBar'>
-            <h1>hello</h1>
+            <div className='invoice'>
+            <h1>GENERATE INVOICE</h1>
+            </div>
+            
+            <div className='sidebarMenu'>
+                <p>Main</p>
+                </div>
+                    <div className= 'OverviewDetails'>
+                    <img src={Overview} alt='' />
+                    <p>Overview</p>
+                    </div>
+
+                    <br/>
+                    <br/>
+                    <p>Payments</p>
+
+                    <div className= 'payment'>
+                    <img src={AllPayment} alt='' />
+                    <p>All Payments</p>
+                    </div>
+                    
+                    <div className= 'payment'>
+                    <img src={ReconcilePayment} alt='' />
+                    <p>Reconcilled Payments</p>
+                    </div>
+                    
+                    <div className= 'payment'>
+                    <img src={UnreconcilePayment} alt='' />
+                    <p>Un-Reconcilled Payments</p>
+                    </div>
+                    
+                    <div className= 'payment'>
+                    <img src={ManualSettlement} alt='' />
+                    <p>Manual Settlement</p>
+                    </div>
+                    
+            
         </div>
     )
 }

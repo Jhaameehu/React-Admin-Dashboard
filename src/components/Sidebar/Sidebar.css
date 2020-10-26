@@ -5,7 +5,54 @@
   width: 260px;
   height: 1510px;
   background-color: #fff;
-  top: 0;
+  align-items: center;
+  padding-top: 93px;
+}
+.invoice h1 {
+  text-align: center;
+  width: 163px;
+  height: 25px;
+  margin-left: 45px;
+  padding-top: 10px;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 12px;
+  background: #27ae60;
+  border-radius: 30px;
+}
+
+.sidebarMenu p {
+  margin-left: 45px;
+  font-size: 11px;
+}
+.OverviewDetails {
+  display: flex;
+  background: #1876f023;
+  border-left: 4px solid #1875f0;
   margin: 0;
-  padding: 0;
+  height: 25px;
+  padding: 10px 45px;
+}
+.OverviewDetails img {
+  padding-top: 2px;
+  width: 19.48px;
+  height: 16px;
+}
+.OverviewDetails p {
+  margin-left: 20px;
+  font-size: 11px;
+}
+.payment {
+  display: flex;
+  margin-left: 45px;
+}
+.payment img {
+  padding-top: 2px;
+  width: 17.14px;
+  height: 16px;
+}
+.payment p {
+  margin-left: 20px;
+  font-size: 11px;
 }
