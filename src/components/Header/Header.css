@@ -1,0 +1,94 @@
+* {
+  font-family: 'Segoe UI', sans-serif;
+}
+.topBar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+  /* width: 100%; */
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 0;
+}
+.topLeft {
+  float: left;
+  margin: 0;
+}
+.topBar h1 {
+  margin: 0 50px;
+  margin-right: 70px;
+
+  font-family: 'Roboto', san serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(46, 46, 245);
+}
+#icon {
+  padding-left: 30px;
+  background-image: url(../../Images/searchIcon.png);
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: left center;
+}
+.topBar input {
+  border: none;
+  font-size: 0.8rem;
+  color: #647787;
+  padding: 8px;
+}
+
+.topRight {
+  display: flex;
+  margin-left: auto;
+}
+ul {
+  margin: 0;
+  padding: 10px;
+}
+li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+  color: #647787;
+  font-size: 14px;
+}
+a {
+  padding: 8px;
+}
+
+.notification {
+  position: relative;
+}
+.notification .badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  padding: 0px 8px;
+  border-radius: 50%;
+  background: #1860ec;
+  color: #fcfdff;
+  font-size: 12px;
+}
+.userLogin {
+  margin-left: 50px;
+  text-align: right;
+  /* line-height: 1; */
+}
+.userName {
+  margin: 0;
+  font-size: 14px;
+}
+
+.welcomeNote {
+  margin: 0;
+  font-size: 10.3px;
+}
+.topBar img {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 50px;
+  border-radius: 100%;
+}
