@@ -52,6 +52,23 @@ const cards = () => {
 
   </div>
 </div>
+<div className='transaction'>
+  <p>Payments</p>
+  <div className='transactionInfo'>
+    <p>Showing</p>
+    <a href="/"><p>20</p></a>
+    <p>pout of 500 payments</p>
+  <div className='searchBox'>
+  <input id="search" type="text" placeholder="Search..."/>
+  </div>
+<p>Show</p>
+<div className='allArrow'>
+<p>All</p>
+</div>
+  </div>
+
+</div>
+
 </div>
       
     )

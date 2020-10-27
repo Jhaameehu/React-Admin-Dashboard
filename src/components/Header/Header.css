@@ -10,7 +10,7 @@
   height: 60px;
   text-align: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
 
   padding-bottom: 0;
 }
@@ -34,11 +34,12 @@ img {
   padding-left: 30px;
   background-image: url(../../Images/searchIcon.png);
   background-repeat: no-repeat;
-  background-size: 15px 15px;
+  background-size: 12px 12px;
   background-position: left center;
 }
 .topBar input {
   border: none;
+  outline: none;
   font-size: 0.8rem;
   color: #647787;
   padding: 8px;

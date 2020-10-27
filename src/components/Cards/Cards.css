@@ -67,6 +67,8 @@ span{
   position: relative;
   width: 80%;
   height: 4px;
+  position: relative;
+
 }
 .card .paymentInfo {
   margin: 3px;
@@ -92,4 +94,66 @@ span{
 
 .card span {
   font-size: 14px;
+}
+.transaction {
+  margin-left: 20px;
+}
+.transaction p{
+  font-size: 36px;
+}
+
+.transactionInfo {
+  display: flex;
+  flex-direction: row;
+}
+.transactionInfo p{
+font-size: 13px;
+margin-right: 20px;
+}
+
+.transactionInfo a  {
+  text-decoration: none;
+  color: #1875F0;
+font-size: 13px;
+margin: 0;
+padding: 0;
+}
+
+img {
+  width: 10px;
+}
+#search {
+  padding-left: 30px;
+  background-image: url(../../Images/searchIcon.png);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: left center;
+
+}
+.searchBox {
+  width: 50%;
+}
+.transactionInfo input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #787878;
+  width: 336.5px;
+  font-size: 0.8rem;
+  background: #e5e5e5;
+  padding: 0px;
+  font-size: 11px;
+  margin: 0;
+}
+
+.allArrow {
+  background: #CED0DA;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+
+margin: 0;
+padding: 0;
+}
+.allArrow p {
+  margin: 5px;
 }

@@ -10,7 +10,7 @@ const Header = () => {
         <div>
             <div className='topBar'>
             <h1>TransMonitor</h1>
-            {/* <img src={Search} alt='' /> */}
+            
             <input id="icon" type="text" placeholder="Search..."/>
             <div className='topRight'>
                 <ul>
