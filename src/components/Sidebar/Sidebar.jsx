@@ -12,8 +12,6 @@ import pendingOrders from '../../Images/pendingOrders.png';
 
 
 
-
-
 const Sidebar = () => {
     return (
         
@@ -76,4 +74,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar
+export default Sidebar;

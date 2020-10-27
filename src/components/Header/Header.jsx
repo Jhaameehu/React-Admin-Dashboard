@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import AdminImg from '../../Images/adminPhoto.png';
 // import Search from '../../Images/Search.jpg';
-
+// import Cards from '../Cards/Cards';
 import { IoIosNotificationsOutline } from 'react-icons/io'
 import { IconContext } from 'react-icons/lib';
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
             </div>
             <img src={AdminImg} alt='' />
             </div>
-           
+           {/* <Cards /> */}
         </div>
     )
 }

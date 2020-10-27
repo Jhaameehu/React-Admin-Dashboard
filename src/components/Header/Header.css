@@ -6,11 +6,12 @@
   flex-direction: row;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
-  width: 100%;
+  width: 100vw;
   height: 60px;
   text-align: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
+
   padding-bottom: 0;
 }
 .topLeft {

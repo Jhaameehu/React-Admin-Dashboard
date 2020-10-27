@@ -1,5 +1,5 @@
 * {
-  top: 0;
+  /* top: 0; */
 }
 .sideBar {
   width: 260px;
@@ -7,6 +7,8 @@
   background-color: #fff;
   align-items: center;
   padding-top: 70px;
+  overflow: hidden;
+  /* position: fixed; */
 }
 .invoice h1 {
   text-align: center;
