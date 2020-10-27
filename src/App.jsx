@@ -5,29 +5,16 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Cards from './components/Cards/Cards';
 
 
-
-
-
 function App() {
   return (
-    // <div className='panels'>
-    //  <div className='panel-position'>
-    //   <Sidebar />
-    //   </div>
-    //   <div className='panel-header'>
-    //   <Header />
-    //   </div>
       
-      <div className="grid-container">
+  <div className="grid-container">
   <header className="header"><Header /></header>
   <div className="sidenav"><Sidebar /></div>
   <main className="main"><Cards /></main>
-  
-  {/* <footer className="footer"></footer> */}
 </div>
       
       
-    // </div>
   );
 }
 

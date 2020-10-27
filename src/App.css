@@ -9,7 +9,6 @@
   height: 100vh;
 }
 
-/* Give every child element its grid name */
 .header {
   position: absolute;
   grid-area: header;
@@ -17,7 +16,6 @@
 
 .sidenav {
   grid-area: sidenav;
-  /* position: relative; */
 }
 
 .main {
@@ -26,8 +24,3 @@
   background-color: #e5e5e5;
 }
 
-.footer {
-  position: relative;
-  grid-area: footer;
-  background-color: #648ca6;
-}
