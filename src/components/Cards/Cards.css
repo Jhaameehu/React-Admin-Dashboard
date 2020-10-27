@@ -4,7 +4,6 @@
   grid-auto-rows: 100px;
   grid-gap: 20px;
   margin: 20px;
-  
 }
 .overviewcard {
   display: flex;
@@ -19,12 +18,12 @@ height: 75px;
   column-count: 2;
   column-gap: 20px;
   margin: 20px;
+  font-size: 14px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
   background-color: #FFFFFF;
   margin-bottom: 20px;
@@ -32,17 +31,65 @@ height: 75px;
   padding: 20px;
   box-sizing: border-box;
 }
-
-/* Force varying heights to simulate dynamic content */
 .card:first-child {
-  height: 485px;
+  height: 300px;
 }
 
 .card:nth-child(2) {
-  height: 200px;
+  height: 150px;
+  width: 500px;
 }
 
 .card:nth-child(3) {
-  height: 265px;
+  height: 130px;
+  width: 500px;
+
 }
 
+.overviewcard__icon p{
+  font-size: 12px;
+  margin: 0;
+}
+span{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0;
+}
+.card .line {
+  margin: 5px;
+  background: #FDC203;
+  position: relative;
+  width: 80%;
+  height: 4px;
+}
+.card .paymentInfo {
+  margin: 3px;
+  background: #FDC203;
+  position: relative;
+  width: 80%;
+  height: 4px;
+}
+.card .paymentInfo:before {
+  content: '';
+  background: #27AE60;
+  width: 85%;
+  height: 4px;
+  position: absolute;
+}
+.card .line:before {
+  content: '';
+  background: #27AE60;
+  width: 85%;
+  height: 4px;
+  position: absolute;
+}
+
+.card span {
+  font-size: 14px;
+}

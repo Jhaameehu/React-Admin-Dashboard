@@ -6,6 +6,8 @@ import Cards from './components/Cards/Cards';
 
 
 
+
+
 function App() {
   return (
     // <div className='panels'>
@@ -20,6 +22,7 @@ function App() {
   <header className="header"><Header /></header>
   <div className="sidenav"><Sidebar /></div>
   <main className="main"><Cards /></main>
+  
   {/* <footer className="footer"></footer> */}
 </div>
       

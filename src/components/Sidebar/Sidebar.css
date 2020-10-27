@@ -48,6 +48,8 @@
 .payment {
   display: flex;
   margin-left: 45px;
+  font-size: 11px;
+
 }
 .payment img {
   padding-top: 2px;
